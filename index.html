@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream </title>
+</head>
+<body>
+    <label> Number of scoop <input type="number" value="1"></label>
+    <div id="containertype"></div>
+        <label><input type="radio"name="containerType" value="cone"> cone</label></label>
+        <label><input type="radio"name="containerType" value="cup" checked> cup</label></label>
+<fieldset id="tooping">
+    <legend> Topping</legend>
+    <label><input type="checkbox" id="sprinles">Sprincles ($0.50)</label>
+    <label><input type="checkbox" id="whip">Whip ($0.20)</label>
+    <label><input type="checkbox" id="fudge">Fudge ($1.25)</label>
+    <label><input type="checkbox" id="cherry">Cherry ($0.25)</label>
+
+</fieldset>
+<button id="sumbitOrder">Sumbit Order </button>
+<table>
+    <tr>
+        <th>Base Price:</th>
+        <td>$<span id="baseprice">0.00</span></td>
+    </tr>
+    <tr>
+        <th>Tax:</th>
+        <td>$<span id="Tax">0.00</span></td>
+    </tr>
+    <tr>
+        <th>Total Due:</th>
+        <td>$<span id="totalDue">0.00</span></td>
+    </tr>
+</table>
+
+    <div id="topping"> </div>
+</body>
+</html>
